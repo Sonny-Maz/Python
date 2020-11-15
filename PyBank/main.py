@@ -1,11 +1,9 @@
 import csv
-filename = 'python-challenge/PyBank/Resources/budget_data.csv'
+filename = './Resources/budget_data.csv'
 
 budgetData = []
 with open(filename,"r") as data:
-    #print(data)
     bank = csv.reader(data)
-    #print(bank)
     hdr = next(bank)
     for row in bank:
         budgetData.append(row)
