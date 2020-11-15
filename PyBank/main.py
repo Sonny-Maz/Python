@@ -1,5 +1,5 @@
 import csv
-filename = 'python-challenge/PyBank/Resources/budget_data.csv'
+filename = './Resources/budget_data.csv'
 
 budgetData = []
 with open(filename,"r") as data:
